@@ -1,0 +1,50 @@
+body {
+  margin:0;
+  padding:0;
+  display:flex;
+  text-align:center;
+  height:2400px;
+  justify-content:center;
+  font-family:"Varela Round",sans-serif;
+  background:linear-gradient(magenta,orange)
+} button>i {
+  font-size:30px;
+  border-radius:15px;
+  padding:10px;
+  cursor:pointer;
+} a>button{
+  background:springgreen;
+  color:white;
+  border:3px solid;
+  border-radius:10px;
+  position:sticky;
+  transition: all 1.5s ease;
+  animation:color-change 3s infinite linear forwards;
+  left:10px;
+  bottom:20px;
+} button:hover {
+  transform:scale(1.2);
+  animation-play-state:paused;
+} @keyframes color-change {
+  0% {
+    background-color:springgreen;
+  }
+  50% {
+    background-color:cyan;
+  }
+  100% {
+    background-color:springgreen;
+  }
+} @keyframes color-change1 {
+  0% {
+    background-color:cyan;
+  }
+  50% {
+    background-color:springgreen;
+  }
+  100% {
+    background-color:cyan;
+  }
+} .btn {
+  animation:color-change1 3s infinite linear forwards;
+}

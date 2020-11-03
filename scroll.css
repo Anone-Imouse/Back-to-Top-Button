@@ -35,7 +35,7 @@ body {
   100% {
     background-color:springgreen;
   }
-} @keyframes color-change1 {
+} @keyframes color-change2 {
   0% {
     background-color:cyan;
   }
@@ -46,5 +46,5 @@ body {
     background-color:cyan;
   }
 } .btn {
-  animation:color-change1 3s infinite linear forwards;
+  animation:color-change2 3s infinite linear forwards;
 }
